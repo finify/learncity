@@ -35,12 +35,36 @@ let questions = [
     choice3: "msg('Hello World');",
     choice4: "alert('Hello World');",
     answer: 4
+  },
+  {
+    question: "Which nail grows fastest?",
+    choice1: "middle",
+    choice2: "Big finger",
+    choice3: "thumb",
+    choice4: "little finger",
+    answer: 1
+  },
+  {
+    question: "Who did Lady Diana Spencer marry?",
+    choice1: "john king",
+    choice2: "Prince Charles",
+    choice3: "pen doro",
+    choice4: "fin",
+    answer: 2
+  },
+  {
+    question: "What colour is a panda?",
+    choice1: "Red and black",
+    choice2: "orange",
+    choice3: "Pink and white",
+    choice4: "Black and white",
+    answer: 4
   }
 ];
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 6;
 
 startGame = () => {
   questionCounter = 0;
